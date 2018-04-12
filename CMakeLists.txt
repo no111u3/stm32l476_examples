@@ -16,6 +16,7 @@ add_subdirectory(libs/lp_devices)
 
 # examples
 add_subdirectory(examples/empty)
+add_subdirectory(examples/enable_led)
 
 setup_custom_compiler_flags()
 setup_custom_linker_flags(${LINKER_SCRIPT} examples)
