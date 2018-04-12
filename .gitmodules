@@ -1,0 +1,15 @@
+[submodule "cmake"]
+	path = cmake
+	url = git@github.com:no111u3/cmake.git
+[submodule "libs/lp_bm"]
+	path = libs/lp_bm
+	url = git@github.com:no111u3/lp_bm.git
+[submodule "libs/lp_cc_core"]
+	path = libs/lp_cc_core
+	url = git@github.com:no111u3/lp_cc_core.git
+[submodule "libs/lp_cc_lib"]
+	path = libs/lp_cc_lib
+	url = git@github.com:no111u3/lp_cc_lib.git
+[submodule "libs/lp_devices"]
+	path = libs/lp_devices
+	url = git@github.com:no111u3/lp_devices.git
