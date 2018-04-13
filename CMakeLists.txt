@@ -15,8 +15,11 @@ add_subdirectory(libs/lp_cc_lib)
 add_subdirectory(libs/lp_devices)
 
 # examples
+#<Base>
 add_subdirectory(examples/empty)
+#<Gpio/Led>
 add_subdirectory(examples/enable_led)
+add_subdirectory(examples/blinking_led_stk)
 
 setup_custom_compiler_flags()
 setup_custom_linker_flags(${LINKER_SCRIPT} examples)
