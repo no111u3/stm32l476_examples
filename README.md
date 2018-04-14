@@ -5,3 +5,4 @@ It consist:
  - enable led (enable_led)
  - blinking led throw sys tick timer (blinking_led_stk)
  - greeting with usart and serial lib (greeting_usart)
+ - echo serial with usart and serial lib (echo_usart)

@@ -22,6 +22,7 @@ add_subdirectory(examples/enable_led)
 add_subdirectory(examples/blinking_led_stk)
 #<Usart>
 add_subdirectory(examples/greeting_usart)
+add_subdirectory(examples/echo_usart)
 
 setup_custom_compiler_flags()
 setup_custom_linker_flags(${LINKER_SCRIPT} examples)
