@@ -32,20 +32,20 @@ namespace {
 }
 
 extern "C" void isr::TIM6_DACUNDER() {
-    if (hal::tim6::get_status<tim6::sr_uif>()) {
+    if (hal::tim6::get_status<hal::tim6::status::update_int>()) {
         // Change PB2 state
         hal::gpiob::output::modify<hal::pins::p2::op_xor>();
 
-        hal::tim6::clear_status<tim6::sr_uif>();
+        hal::tim6::clear_status<hal::tim6::status::update_int>();
     }
 }
 
 extern "C" void isr::TIM7() {
-    if (hal::tim7::get_status<tim7::sr_uif>()) {
+    if (hal::tim7::get_status<hal::tim7::status::update_int>()) {
         // Change PE8 state
         hal::gpioe::output::modify<hal::pins::p8::op_xor>();
 
-        hal::tim7::clear_status<tim7::sr_uif>();
+        hal::tim7::clear_status<hal::tim7::status::update_int>();
     }
 }
 
