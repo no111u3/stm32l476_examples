@@ -25,6 +25,7 @@ add_subdirectory(examples/greeting_usart)
 add_subdirectory(examples/echo_usart)
 #<Tim>
 add_subdirectory(examples/blinking_base_tim)
+add_subdirectory(examples/blinking_pwm_general_tim)
 
 setup_custom_compiler_flags()
 setup_custom_linker_flags(${LINKER_SCRIPT} examples)
