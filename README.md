@@ -4,6 +4,7 @@ It consist:
  - empty base project (empty)
  - enable led (enable_led)
  - enable led if button pressed (enable_led_button)
+ - enable led if throw exti event (enable_led_exit)
  - blinking led throw sys tick timer (blinking_led_stk)
  - greeting with usart and serial lib (greeting_usart)
  - echo serial with usart and serial lib (echo_usart)

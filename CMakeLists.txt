@@ -20,6 +20,7 @@ add_subdirectory(examples/empty)
 #<Gpio/Led>
 add_subdirectory(examples/enable_led)
 add_subdirectory(examples/enable_led_button)
+add_subdirectory(examples/enable_led_exti)
 add_subdirectory(examples/blinking_led_stk)
 #<Usart>
 add_subdirectory(examples/greeting_usart)
